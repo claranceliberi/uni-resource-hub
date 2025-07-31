@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "uniresource-hub-backend"
+version = "0.1.0"
+description = "Backend API for UniResource Hub - A centralized learning resource platform for ALU students"
+authors = ["Clarance https://liberiste.vercel.app/ Ntwari <n.liberiste@alustudent.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0"}
+sqlalchemy = "^2.0.23"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.12.1"
+pydantic = {extras = ["email"], version = "^2.5.0"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.6"
+python-dotenv = "^1.0.0"
+httpx = "^0.25.2"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+mypy = "^1.7.1"
+pre-commit = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.9"
+check_untyped_defs = true
+ignore_missing_imports = true
