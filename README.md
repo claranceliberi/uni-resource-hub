@@ -4,9 +4,9 @@ A centralized platform for managing and accessing academic learning resources fo
 
 ## 🚀 Live Deployment
 
-- **Frontend**: [https://https://liberiste.vercel.app/.vercel.app/](https://https://liberiste.vercel.app/.vercel.app/)
-- **Backend API**: [https://https://liberiste.vercel.app/.onrender.com](https://https://liberiste.vercel.app/.onrender.com)
-- **API Documentation**: [https://https://liberiste.vercel.app/.onrender.com/docs](https://https://liberiste.vercel.app/.onrender.com/docs)
+- **Frontend**: [https://liberiste.vercel.app/dashboard](https://liberiste.vercel.app/dashboard)
+- **Backend API**: [https://liberiste.onrender.com/docs](https://liberiste.onrender.com/docs)
+- **API Documentation**: [https://liberiste.onrender.com/docs](https://liberiste.onrender.com/docs)
 - **Repository**: [https://github.com/claranceliberi/uni-resource-hug](https://github.com/claranceliberi/uni-resource-hug)
 
 ## Overview
